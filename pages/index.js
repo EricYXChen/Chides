@@ -1,11 +1,9 @@
 import Layout from "../components/Layout";
 
-export default function Home() {
+export default function Auth() {
   return (
-    <div>
-      <Layout>
-        <h1>Welcome to the Chidas app</h1>
-      </Layout>
-    </div>
+    <Layout>
+      <p style={{ fontSize: "3rem" }}>Welcome to Chides</p>
+    </Layout>
   );
 }

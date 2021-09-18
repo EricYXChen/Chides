@@ -8,7 +8,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 export default function Layout(props) {
   return (
-    <div>
+    <>
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
           <Toolbar>
@@ -23,6 +23,6 @@ export default function Layout(props) {
         </AppBar>
       </Box>
       {props.children}
-    </div>
+    </>
   );
 }
