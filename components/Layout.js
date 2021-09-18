@@ -22,7 +22,7 @@ export default function Layout(props) {
           </Toolbar>
         </AppBar>
       </Box>
-      {props.children}
+      <main>{props.children}</main>
     </>
   );
 }
