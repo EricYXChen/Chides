@@ -18,7 +18,9 @@ export default function Layout(props) {
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               Chidas
             </Typography>
-            <Button color="inherit">Login</Button>
+            <Button color="inherit" href = "/auth">Login</Button>
+            <Button color ="inherit" href = "/app">Dashboard</Button>
+            <Button color = "inherit" href = "/app/user/username">Profile</Button>
           </Toolbar>
         </AppBar>
       </Box>
