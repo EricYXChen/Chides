@@ -5,8 +5,8 @@ import { Container } from "@mui/material";
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs, addDoc, doc } from "firebase/firestore";
 
-import Layout from "../components/Layout";
-import firebaseConfig from "../src/firebaseConfig";
+import Layout from "../../components/Layout";
+import firebaseConfig from "../../src/firebaseConfig";
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
@@ -27,9 +27,10 @@ export default function AppHome() {
   return (
     <Layout>
       <Container>
-        <h1>Upcoming Plans</h1>
+        <h1>👋 Welcome, Alex</h1>
+        <h3>Upcoming Plans</h3>
         <pre>{JSON.stringify(places, undefined, 4)}</pre>
-        <h1>Places Visited</h1>
+        <h3>Places Visited</h3>
       </Container>
     </Layout>
   );
