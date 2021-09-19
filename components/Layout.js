@@ -12,19 +12,22 @@ export default function Layout(props) {
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
           <Toolbar>
-            <IconButton size="large" edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
-              <MenuIcon />
-            </IconButton>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              Chidas
+              Chides
             </Typography>
-            <Button color="inherit" href = "/auth">Login</Button>
-            <Button color ="inherit" href = "/app">Dashboard</Button>
-            <Button color = "inherit" href = "/app/user/username">Profile</Button>
+            <Button color="inherit" href="/auth">
+              Login
+            </Button>
+            <Button color="inherit" href="/app">
+              Dashboard
+            </Button>
+            <Button color="inherit" href="/app/user/username">
+              Profile
+            </Button>
           </Toolbar>
         </AppBar>
       </Box>
-      <main>{props.children}</main>
+      <main style={{ margin: "30px 0" }}>{props.children}</main>
     </>
   );
 }
