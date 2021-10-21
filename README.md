@@ -1,5 +1,5 @@
 # Chides
 
-This is the revolutionary Chides App!
+Chides is a platform for tracking restaurant visits.
 
-Made with <3 during Hack the North 2021.
+Made with <3 for Hack the North 2021.
